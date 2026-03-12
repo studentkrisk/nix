@@ -41,6 +41,10 @@ in
       install-extra-apps = true;
       browsers = true;
     };
+
+    stats = {
+        enable = true;
+    };
   };
 
   boot = {
