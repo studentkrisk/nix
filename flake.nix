@@ -106,6 +106,10 @@
       url = "github:ocf/jukebox-django";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    mysql = {
+        
+
   };
 
   outputs =

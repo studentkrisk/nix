@@ -30,6 +30,7 @@ in
   ocf = {
     # TODO: need ensure host keys can't be stolen by booting an external drive...
     acme.enable = false;
+    stats.enable = true;
 
     etc.enable = true;
     tmpfsHome.enable = true;
@@ -40,10 +41,6 @@ in
       enable = true;
       install-extra-apps = true;
       browsers = true;
-    };
-
-    stats = {
-        enable = true;
     };
   };
 
